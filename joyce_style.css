@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+hr.bar {
+	border: 2px solid #007799;
+	width: 500px;
+	margin-top: 30px;
+}
+
+#content > .container > div {
+	padding: 78px 0;
+}
+
+#nav {
+	background-color: #99BBFF;
+	width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100;
+}
+
+#content {
+  position: relative;
+  top: 78px;
+  padding: 15px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.menu {
+	float: right;
+	margin-right: 10px;
+}
+
+.menu li {
+  padding: 9px 10px;
+  margin-right: 5px;
+  border: 1px solid #880000;
+  border-radius: 30px;
+
+
+  list-style-type: none;
+  text-align: center;
+  background-color: none;
+  color: #fff;
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: #880000;
+  text-decoration: none;
+}
+
+.menu li:hover  {
+  background-color: #880000;
+}
+
+li:hover a {
+  color: #FFF;
+  font-weight: 800;
+}
+
+/* about me */
+
+
+
+h1 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#my-avatar {
+  float: left;
+  margin-right: 30px;
+  margin-left: 70px;
+}
+
+#my-avatar img {
+  width: 170px;
+}
+
+h2 {
+	margin-bottom: 0;
+	text-align: left;
+}
+
+#about p {
+	margin: 0;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 10px;
+}
+
+th {
+	color: #AA0000;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+/* my exp */
+
+
+
+.exp-list {
+	background-color: #FF8888;
+	border: 1px solid #FF8888;
+  border-radius: 10px;
+  color: #003377;
+
+  position: relative;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+  float: left;
+  margin-left: 70px;
+  margin-bottom:30px;
+}
+
+.list-title {
+	width: 100%;
+}
+
+.list-info {
+	background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+
+	width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  text-align: center;
+  padding: 25px 10px;
+
+  opacity: 0;
+}
+
+.list-info li {
+	font-size: 10px;
+}
+
+.list-info:hover {
+	opacity: 1;
+}
+
+form.message-form {
+	width: 300px;
+	margin-left: 70px;
+}
+
+.form-row {
+	margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea {
+	border-radius: 3px;
+	width: 100%;
+	border: 1px solid #D6D9DC;
+	padding: 7px;
+}
+
+.form-row button {
+	border: none;
+	border-radius: 3px;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.form-row button[type="submit"] {
+	background-color: #5995DA;
+	color: #FFFFFF;
+}
+
+.form-row button:hover {
+	background-color: #76AEED;
+}
+
+.form-row button:active {
+	background-color: #407FC7;
+}
+
+.contact {
+	float: right;
+	margin-right: 50px;
+	font-size: 20px;
+}
