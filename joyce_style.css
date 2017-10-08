@@ -205,3 +205,70 @@ form.message-form {
 	margin-right: 50px;
 	font-size: 20px;
 }
+
+@media screen and (min-width:1024px) {
+  .nav-button,
+  .nav-button-checkbox {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .container {
+    width: auto;
+  }
+
+  .nav-button {
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    color: #880000;
+    background: transparent;
+    padding: 0 15px;
+    border: 0;
+    
+  }
+
+  .nav-button-checkbox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    opacity: 0;
+  }
+
+  .nav-button-checkbox:checked ~ .menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    margin-top: 0;
+    padding-left: 0;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    width: 150px;
+    height: 100%;
+    background: #99BBFF;
+  }
+
+  .menu li {
+    border: 0;
+    border-radius: 0;
+  }
+
+  form.message-form {
+    width: 80%;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
+
+  .exp-list {
+    margin: 10px;
+  }
+  
+}
